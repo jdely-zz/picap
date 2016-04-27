@@ -7,7 +7,7 @@
 rootdir=~/picap
 pcapdir=$rootdir/captures
 logFile=$rootdir/picap.log
-int=eno16777736
+int=eth0
 state="$(cat /sys/class/net/${int}/carrier)"
 runtime=10s
 
