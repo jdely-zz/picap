@@ -10,6 +10,7 @@ logFile=$rootdir/picap.log
 int=eth0
 state="$(cat /sys/class/net/${int}/carrier)"
 runtime=10s
+filecount="$(ls -l $pcapdir | wc -l" 
 
 # Interface Prep
 ifconfig $int 0.0.0.0
