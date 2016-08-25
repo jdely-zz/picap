@@ -2,7 +2,6 @@
 
 # PiCAP
 # Automatic packet capture for Raspberry Pi
-# Version 1
 
 ## Path Variables
 picapdir=/home/pi/picap/captures
